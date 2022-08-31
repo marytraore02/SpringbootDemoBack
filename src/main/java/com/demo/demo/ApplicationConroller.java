@@ -1,4 +1,4 @@
-package com.demo.controller;
+package com.demo.demo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,8 +11,8 @@ public class ApplicationConroller {
         return "index";
     }
 
-    @GetMapping("/widgets")
+    @GetMapping("/index2")
     public String widget(){
-        return "widgets";
+        return "index2";
     }
 }
